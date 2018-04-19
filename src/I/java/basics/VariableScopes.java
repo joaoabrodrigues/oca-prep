@@ -5,6 +5,8 @@ public class VariableScopes {
     static int myGlobalInt = 5;
 
     public static void main(String[] args) {
+        // I can do this, cause here is another scope
+        int myGlobalInt = 30;
         int myLocalInt = 10;
 
         {
