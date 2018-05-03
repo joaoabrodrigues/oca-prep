@@ -1,4 +1,4 @@
-    package I.java.basics;
+    package java.basics;
 
     /**
      * Class are basic building blocks that represents an object

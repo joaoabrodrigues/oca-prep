@@ -1,4 +1,4 @@
-package I.java.basics;
+package java.basics;
 
 public class DecimalNumericPrimitiveTypes {
 

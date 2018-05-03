@@ -1,4 +1,4 @@
-package I.java.basics;
+package java.basics;
 // we can't import classes in default packages, like src/
 
 // unused

@@ -1,4 +1,4 @@
-package I.java.basics;
+package java.basics;
 
 // Boxing -> put an primitive inside a wrapper (int to Integer)
 // Unboxing -> (Integer to int)
