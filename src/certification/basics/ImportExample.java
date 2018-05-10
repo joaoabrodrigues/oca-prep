@@ -1,4 +1,4 @@
-package java.basics;
+package certification.basics;
 // ALL IMPORTS ARE IN THE BEGINNING OF THE CLASS
 
 import testing.imports.classes.ExampleImportClass;

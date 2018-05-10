@@ -1,4 +1,4 @@
-package java.basics;
+package certification.basics;
 
 public class Whiz {
     static int x = 4;

@@ -2,7 +2,7 @@
 // import must be after the package declaration
 // import java.util.Random;
 
-package java.basics;
+package certification.basics;
 
 // compilation fails
 // unexpected token -> the package declaration must be the first statement of a class

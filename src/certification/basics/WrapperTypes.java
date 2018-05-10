@@ -1,4 +1,4 @@
-package java.basics;
+package certification.basics;
 
 // Boxing -> put an primitive inside a wrapper (int to Integer)
 // Unboxing -> (Integer to int)

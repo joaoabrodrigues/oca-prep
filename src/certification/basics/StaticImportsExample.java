@@ -1,4 +1,4 @@
-package java.basics;
+package certification.basics;
 
 //import static java.lang.Math.*;
 import static java.lang.Math.PI;
