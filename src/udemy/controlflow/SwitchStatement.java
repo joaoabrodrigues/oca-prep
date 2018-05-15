@@ -60,5 +60,18 @@ public class SwitchStatement {
             case 'K':
             //case "Test": -> trying to use string instead of int
         }
+
+        System.out.println();
+
+        int num = 120;
+        switch (num) { // always will execute what comes first, even the default statement comes first
+            default:
+                System.out.println("default");
+            case 0:
+                System.out.println("case1");
+            case 10*2-10:
+                System.out.println("case2");
+                break;
+        }
     }
 }
