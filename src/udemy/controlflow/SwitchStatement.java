@@ -7,6 +7,7 @@ public class SwitchStatement {
     // primitives: int, short, char, byte
     // wrappers: Integer, Short, Character, Byte, String
     // enums
+    // we can't use "continue" statement with switch
     public static void main(String[] args) {
         Random rand = new Random();
         int dayOfWeek = rand.nextInt(6);
