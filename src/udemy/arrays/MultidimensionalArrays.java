@@ -43,5 +43,7 @@ public class MultidimensionalArrays {
         };
 
         System.out.println(threeDArray[2][1][1]); // 25
+
+        //int[][] types = new int[][]; -> does not compile, multidimensional arrays size must be declared, at least the first
     }
 }
