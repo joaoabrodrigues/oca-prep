@@ -36,7 +36,7 @@ public abstract class Animal {
         return 10.0;
     }
 
-    public abstract void printName();
+    protected abstract void printName();
 
     public void printDetails(){
         printName();
