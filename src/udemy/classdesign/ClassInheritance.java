@@ -12,9 +12,9 @@ public class ClassInheritance {
         Samoyed samoyed = new Samoyed(5);
         samoyed.printDetails();
 
-        Dog dog = new Dog(2);
-        dog.setName("Ty");
-        dog.printDetails();
+        // Dog dog = new Dog(2);
+        // dog.setName("Ty");
+        // dog.printDetails();
 
         samoyed.eat();
         System.out.println("avg = " + samoyed.getAverageWeight());

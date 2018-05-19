@@ -13,4 +13,26 @@ public class Samoyed extends Dog {
         System.out.println("Samoyed eating");
         super.eat();
     }
+
+    @Override
+    public void printName() {
+        System.out.println("name = " + getName());
+    }
+
+    @Override
+    public int getWeight() {
+        return 15;
+    }
+
+    @Override
+    // if isn't implemented here, the method in the dog class will called
+    // if there is no implementation, an compilation error will occurs
+    public int getTailLength() {
+        return 20;
+    }
+
+    @Override
+    public void run(int speed) {
+        System.out.println(getName() + " is running at speed " + speed);
+    }
 }

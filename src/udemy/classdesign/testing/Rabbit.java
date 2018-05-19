@@ -1,6 +1,6 @@
 package udemy.classdesign.testing;
 
-public class Rabbit extends Animal {
+public class Rabbit extends Animal implements Herbivore, Hop {
 
     public Rabbit(){
         // super; -> does not compile, it is not a statement
@@ -18,4 +18,18 @@ public class Rabbit extends Animal {
         super(3);
         setAge(3);
     }
+
+    @Override
+    public void printDetails() {
+        System.out.println("Rabbit average jump height is " + Hop.getAverageJumpHeight());
+    }
+
+    @Override
+    public int getWeight() {
+        return 1;
+    }
+
+    @Override
+    public void printName() {}
+
 }

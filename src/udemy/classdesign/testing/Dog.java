@@ -1,6 +1,6 @@
 package udemy.classdesign.testing;
 
-public class Dog extends Animal {
+public abstract class Dog extends Animal implements HasTail, CanRun {
 
     public Dog(int age) {
         super(age);
@@ -14,6 +14,11 @@ public class Dog extends Animal {
         System.out.println("Dog eating");
     }
 
+    @Override
+    public int getTailLength() {
+        return 5;
+    }
+
     // OVERLOAD
     public void eat(String test){}
 
@@ -23,4 +28,6 @@ public class Dog extends Animal {
         // without super. will call itself, causing an StackOverflowException
         return super.getAverageWeight() + 20;
     }
+
+
 }

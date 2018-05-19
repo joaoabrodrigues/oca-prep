@@ -1,6 +1,6 @@
 package udemy.classdesign.testing;
 
-public class Animal {
+public abstract class Animal {
 
     private int age;
     private String name;
@@ -29,14 +29,23 @@ public class Animal {
     }
 
     public void eat() {
-        System.out.println("Animal is eating");
+        System.out.println(getName() + " is eating");
     }
 
     public double getAverageWeight() {
         return 10.0;
     }
 
+    public abstract void printName();
+
     public void printDetails(){
-        System.out.println("name = " + name + " age = " + age);
+        printName();
+        System.out.println("age = " + age);
     }
+
+    // public static abstract void run(); -> method can't be abstract and static at the same time
+
+    // public abstract void run(){} abstract methods does not have body
+
+    public abstract int getWeight();
 }
