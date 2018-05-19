@@ -4,7 +4,7 @@ public class ContinueStatement {
 
     // continue statement jumps to the next iteration of the loop
     public static void main(String[] args) {
-        String[] animals = {"Dog", "Cat", "Lizard", "Bird", "Snake"};
+        String[] animals = {"DogTest", "Cat", "Lizard", "Bird", "Snake"};
 
         for (String animal : animals) {
             System.out.println(animal);

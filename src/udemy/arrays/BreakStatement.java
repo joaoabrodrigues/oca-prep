@@ -19,7 +19,7 @@ public class BreakStatement {
             int[] myArray = {1, 2, 3}; // only available here
         }
 
-        String[] animals = {"Dog", "Cat", "Lizard", "Bird", "Snake"};
+        String[] animals = {"DogTest", "Cat", "Lizard", "Bird", "Snake"};
 
         for (String animal : animals) {
             System.out.println(animal);

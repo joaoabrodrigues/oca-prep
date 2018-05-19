@@ -28,9 +28,9 @@ public class WorkingWithArrays {
         int[] ids, types; // creates two arrays
         int ids2[], types2; // ids2 -> array, types2 -> int; bad practice
 
-        String[] animals = {"Parrot", "Dog", "Cat"};
+        String[] animals = {"Parrot", "DogTest", "Cat"};
         String[] myAnimals = animals;
-        String[] otherAnimals = {"Parrot", "Dog", "Cat"};
+        String[] otherAnimals = {"Parrot", "DogTest", "Cat"};
 
         System.out.println(animals.equals(myAnimals)); // true -> reference
         System.out.println(animals == myAnimals); // true -> reference
